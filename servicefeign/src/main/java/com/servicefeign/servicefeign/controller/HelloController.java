@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @Autowired
     HelloService helloService;
+
     @GetMapping(value = "/hi")
     public String sayHi(@RequestParam String name) {
         return helloService.sayHiFromClientOne( name );

@@ -7,3 +7,6 @@ server:
 spring:
   application:
     name: servicefeign
+feign:
+  hystrix:
+    enabled: true

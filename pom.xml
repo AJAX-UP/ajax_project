@@ -22,6 +22,8 @@
         <module>eurekaserver</module>
         <module>eurekaclient</module>
         <module>serviceribbon</module>
+        <module>servicefeign</module>
+        <module>servicezuul</module>
     </modules>
 
     <properties>

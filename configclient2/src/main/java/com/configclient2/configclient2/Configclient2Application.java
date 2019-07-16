@@ -10,18 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableEurekaClient
-@RestController
 public class Configclient2Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Configclient2Application.class, args);
     }
 
-    @Value("${foo}")
-    String foo;
-
-    @RequestMapping(value = "/hi")
-    public String hi(){
-        return this.foo;
-    }
 }
